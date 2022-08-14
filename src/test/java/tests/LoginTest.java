@@ -51,6 +51,5 @@ public class LoginTest extends BaseTest {
 		system.out.ptintln(driver.getTitle());
 		
 	}
-	
 
 }
