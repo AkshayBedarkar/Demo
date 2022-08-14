@@ -46,6 +46,11 @@ public class LoginTest extends BaseTest {
 		lp.logoutbtn();
 	}
 	
+	@Test (priority=4)
+	public void verifyTitle() {
+		system.out.ptintln(driver.getTitle());
+		
+	}
 	
 
 }
